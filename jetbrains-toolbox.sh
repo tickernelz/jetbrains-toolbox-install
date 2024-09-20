@@ -15,7 +15,7 @@ ARCHIVE_FILENAME=$(basename "$ARCHIVE_URL")
 
 echo -e "\e[94mDownloading $ARCHIVE_FILENAME...\e[39m"
 rm "$TMP_DIR/$ARCHIVE_FILENAME" 2>/dev/null || true
-wget -q --show-progress -cO "$TMP_DIR/$ARCHIVE_FILENAME" "$ARCHIVE_URL"
+wget -q --force-progress -cO "$TMP_DIR/$ARCHIVE_FILENAME" "$ARCHIVE_URL"
 
 echo -e "\e[94mExtracting to $INSTALL_DIR...\e[39m"
 mkdir -p "$INSTALL_DIR"
