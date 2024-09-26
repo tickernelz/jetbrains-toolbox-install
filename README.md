@@ -1,6 +1,6 @@
 # jetbrains-toolbox-install
 
-This is an installer for the [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/).
+This is an installer for the [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/) using wget2 works for fedora 40 above.
 
 ## How it works
 
